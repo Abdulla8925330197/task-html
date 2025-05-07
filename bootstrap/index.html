@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap-Design</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Tab Content -->
+    <ul class="nav nav-tabs p-3" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link active"
+          id="today-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#today-tab-pane"
+          type="button"
+          role="tab"
+          aria-controls="today-tab-pane"
+          aria-selected="true"
+        >
+          Today's Engagement
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="future-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#future-tab-pane"
+          type="button"
+          role="tab"
+          aria-controls="future-tab-pane"
+          aria-selected="false"
+        >
+          Future Engagement
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="total-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#total-tab-pane"
+          type="button"
+          role="tab"
+          aria-controls="total-tab-pane"
+          aria-selected="false"
+        >
+          Total Engagement
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <!-- Today Tab -->
+        <div class=" tab-pane fade show active" id="today-tab-pane" role="tabpanel" aria-labelledby="today-tab" tabindex="0">
+          <!-- CARD CONTENT -->
+          <div class="mt-3 border-start border-primary border-4 p-3 mx-4 border-start-lightblue shadow-lg  bg-body-tertiary rounded">
+            <div class="d-flex justify-content-between">
+              <p>ID: 217</p>
+              <div>
+                <button class="btn btn-outline-primary  btn-sm fs-6 px-3">Live In Office</button>
+                <button class="btn btn-outline-warning  btn-sm fs-6 px-3">Awaiting TLL Approval</button>
+
+              </div>
+            </div>
+            <p class="mt-2 mb-1"><strong>Unbranded Speaker Presentation +2</strong></p>
+            <p>SHIONOGI > Fetroja<sup>®</sup> (cefiderocol) <span class="product-text">PI</span></p>
+            <hr />
+            <!-- Bottom Content -->
+            <div class="d-flex justify-content-between">
+              <div>
+                <p class="m-0"><strong>EO : </strong>Sean Gully</p>
+                <p class="m-0"><strong>Speaker : </strong>Malai Appan, Christopher Cooper</p>
+                <p class="m-0 text-success">Attendees Invited: 1</p>
+                <p class="m-0"><strong>Attendees Confirmed: </strong>0</p>
+              </div>
+              <div>
+                <button class="btn btn-success mb-2">Time Zone Review</button>
+                <p>May 6, 2025</p>
+                <p>6:00 AM ET</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Future Tab -->
+        <div class="tab-pane fade" id="future-tab-pane" role="tabpanel" aria-labelledby="future-tab" tabindex="0">
+          <div class="card mt-3 p-3">
+            <p>Future Engagement card</p>
+          </div>
+        </div>
+      
+        <!-- Total Tab -->
+        <div class="tab-pane fade" id="total-tab-pane" role="tabpanel" aria-labelledby="total-tab" tabindex="0">
+          <div class="card mt-3 p-3">
+            <p>Total Engagement Card</p>
+          </div>
+        </div>
+      </div>
+      
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
